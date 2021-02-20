@@ -38,9 +38,9 @@ function App() {
         <br />
          <div className="box">
             <span className="content1">
-                <p>รอบที่ 4 : Admission</p>
+                <div>รอบที่ 4 : Admission</div>
                 <div className="sub-right">
-                    <p>แก้ไขคะแนน</p>
+                    <p className="change-score">แก้ไขคะแนน</p>
                     <img src={Logo3}  className="Group-3-Copy-4" />
                 
                 </div>
@@ -65,7 +65,7 @@ function App() {
         </span>
 
         <span className="Path-4-Copy-3" />  
-        <p className="text-content4">ดูสัดส่วนคะแนน</p>
+        <a href="#" className="text-content4" style={{textDecoration:'none'}}>ดูสัดส่วนคะแนน</a>
         <span className="Path-4-Copy-5" />  
 
         <div className="content5">
