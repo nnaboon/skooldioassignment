@@ -32,9 +32,7 @@ function App() {
                 <p className="circle-border" style={{backgroundColor: '#d8d8d8'}}>5</p>                
             </div>    
         </div>
-        
-            
-        
+
         <br />
          <div className="box">
             <span className="content1">
@@ -65,10 +63,12 @@ function App() {
         </span>
 
         <span className="Path-4-Copy-3" />  
+        {/* <img className="Triangle"></img> */}
         <a href="#" className="text-content4" style={{textDecoration:'none'}}>ดูสัดส่วนคะแนน</a>
         <span className="Path-4-Copy-5" />  
 
         <div className="content5">
+            {/* <img className="Fill-103"></img> */}
             <p className="interest">10 คนที่สนใจ</p> 
             <img src={Logo4} className="Group-2" />
                       
