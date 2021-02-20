@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 import Logo from './Pic/engi.png'
-
 import Logo2 from './Pic/page-1-copy-2@3x.png'
 import Logo3 from './Pic/group-3-copy-4.png';
 import Logo4 from './Pic/group-2.png'
+import Logo5 from './Pic/page-1.png'
 
 function App() {
     return(
@@ -12,10 +12,13 @@ function App() {
            <div className="header1">
            <img src={Logo} className="engi" />
                <div>
-                    <p className="sub-header-2">คณะวิศวกรรมศาสตร์</p>
+                    <div className="sub-header">
+                        <p className="sub-header-2">คณะวิศวกรรมศาสตร์</p> <img src={Logo5} className="Page-1" />
+                    </div>
                     <p className="sub-header-3">สาขาวิศวกรรมทั่วไป</p>
                     <p className="sub-header-4">จุฬาลงกรณ์มหาวิทยาลัย</p>
                </div>
+               
            </div>      
         <span className="Path-4-Copy" />  
 
@@ -35,7 +38,7 @@ function App() {
         <br />
          <div className="box">
             <span className="content1">
-                <p>รอบที่ 4 : admission</p>
+                <p>รอบที่ 4 : Admission</p>
                 <div className="sub-right">
                     <p>แก้ไขคะแนน</p>
                     <img src={Logo3}  className="Group-3-Copy-4" />
