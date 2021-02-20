@@ -1,38 +1,319 @@
-.App {
-  text-align: center;
+body {
+    margin: 17px 16px 24px 18px;
+    height : 493px;
+    width : 442px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color:  rgba(255, 255, 255, 0);
+    width : 442px;
+    height : 493px;
+    padding: 0 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+p {
+    margin: 0;
+}
+
+.engi {
+    width: 80px;
+    height: 86px;
+    padding: 0 0 1px;
+    margin-right: 10px;
+    object-fit: contain;
   }
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    width: 442px;
+    height: 86px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sub-header-2 {
+  font-family: Prompt;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff5a5a; /* grape fruit */
 }
 
-.App-link {
-  color: #61dafb;
+.sub-header-3 {
+    font-family: Prompt;
+    margin: 5px 77px 24px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b; /*warm gray*/
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.sub-header-4 {
+    /* width: 217.2px;
+    height: 16px; */
+    margin: 24px 61.8px 9px 11px;
+    font-family: Prompt;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.Path-4-Copy {
+    width: 402px;
+    height: 3px;
+    margin: 20px 4px 3px 0;
+    border: solid 1px #d8d8d8;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+  .content1, .content2, .sub-content-1, .content3{
+    display: flex;
+    flex-direction: row;  
+
 }
+
+.sub-content-1 {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.round {
+    /* width: 79px;
+    height: 21px; */
+    margin: 14px 23px 0 0;
+    font-family: Prompt;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.01;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5f5f5f;
+}
+
+  .circle-border {
+    /* border: 1px solid #2ecc71; */
+    /* background-color: #2ecc71;
+    text-align: center;
+    color: #FFFFFF;
+    height: 29px;
+    border-radius:50%;
+    width: 29px;
+    margin: 0 5px; */
+    border: 1px solid;
+    text-align: center;
+    border-radius:50%;
+    width: 29px;
+    height: 29px;
+    margin: 8px 8px 0 0;
+    /* padding: 1px 12px 0 11px; */
+    background-color: #2ecc71;
+    font-size: 18.4px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: Prompt;
+
+}
+
+
+.content1 {
+    /* width: 399px;
+    height: 16px; */
+    margin: 9px 4px 31px 0;
+    font-family: Prompt;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ff5a5a;
+}
+
+.sub-right {
+    /* width: 120px;
+    height: 35px; */
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 21px 229px;
+    padding: 7px 8px 7px 20px;
+    border-radius: 17.5px;
+    border: solid 1px #ff5a5a;
+}
+
+.Group-3-Copy-4 {
+    width: 18px;
+    height: 18px;
+    margin: 0 0 0.2px;
+    object-fit: contain;
+  }
+
+  .Page-1-Copy-2 {
+    width: 27px;
+    height: 35px;
+    /* margin: 35px 202px 24px 27px; */
+    /* padding: 0px 0px 0.1px 0px; */
+    object-fit: contain;
+  }
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 27px 0 0;
+}
+
+.score {
+    /* width: 144px;
+    height: 16px; */
+    /* margin: 21px 3px 57px 202px; */
+    display: flex;
+    flex-direction: column;
+    font-family: Prompt;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: right;
+    color: #4a4a4a;
+}
+
+strong {
+    /* width: 132px;
+    height: 64px;
+    margin: 30px 0 0; */
+    font-family: Prompt;
+    font-size: 42px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+.content2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 27px 0 0;
+}
+
+/* s */
+
+
+.score-content2  {
+    /* width: 171px;
+    height: 46px;
+    margin: 2px 152px 0 153px;
+    padding: 3px 162px 14px 3px; */
+    font-family: Prompt;
+    font-size: 11.2px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5f5f5f;
+  }
+
+  .score-content2-2  {
+    /* width: 171px;
+    height: 46px;
+    margin: 2px 152px 0 153px;
+    padding: 3px 162px 14px 3px; */
+    font-family: Prompt;
+    font-size: 11.2px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5f5f5f;
+  }
+
+    .score-content2  .text-style-1, .score-content2-2  .text-style-1 {
+    font-size: 19.6px;
+  }
+
+
+  .Path-4-Copy-3 {
+    width: 402px;
+    height: 3px;
+    margin: 20px 27px 17px 0;
+    border: solid 1px #d8d8d8;
+  }
+
+  .Path-4-Copy-5 {
+    width: 402px;
+    height: 3px;
+    margin: 21px 27px 0 0;
+    border: solid 1px #d8d8d8;
+  }
+
+  .content5 {
+      display: flex;
+      flex-direction: row;
+      margin: 20px 27px 17px 0;
+      justify-content: space-between;
+  }
+
+  .interest {
+    /* width: 44px;
+    height: 15px;
+    margin: 139px 37px 4px 7px; */
+    font-family: Prompt;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9b9b9b;
+  }
+
+  .Group-2 {
+    width: 18px;
+    height: 23px;
+    padding: 1px;
+    object-fit: contain;
+  }
+  
+
+  .text-content4 {
+    /* width: 399px;
+    height: 16px;
+    margin: 17px 0 21px 18.5px; */
+    font-family: Prompt;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #48b6a3;
+  }
